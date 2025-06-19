@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Poojitha Coumputer Science Java Full stack Dev Python">
+    <meta name="descrition" content="This is a profile page of Poojitha. She is a Java Full stack dev.">
+    <meta name="author" content="Poojitha">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/profile">
+    <!-- <meta name="robots" content="index, follow"> search engine will use this content
+    <meta name="robots" content="no-index, no-follow"> search engine will not use this content in any purpuse -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>Poojitha Daggula Profile</h1>
+    </header>
+    <main>
+        <!-- Personal Information -->
+         <section>
+            <h2>Personal Information</h2>
+            <img src="./assets/images/9cb070d62dc738a0c3a1a408d68e4af5.jpg" alt="" width="10%" height="10%">
+            <p><strong>Name: </strong>Poojitha Daggula</p>
+            <p><strong>Branch: </strong>Computer Science and Engeneering</p>
+            <p><strong>College: </strong>Malla Reddy University,Hyderabad</p>
+            <p><strong>Year: </strong>3rd Year</p>
+         </section>
+         <section>
+            <h2>Academic Performance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Subject</th>
+                        <th>SGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>Maths, Physics ,C Programming</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>DSA, OOP, Digital Logic</td>
+                        <td>8.7</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>DBMS, Java, COA</td>
+                        <td>9.2</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+         <section>
+            <!-- Technical Skills -->
+             <h2>Technical Skills</h2>
+             <ul>
+                <li><strong>Operating System</strong>Windows & Linux </li>
+                <li><strong>Language:</strong>Java,C++ </li>
+                <li><strong>Front End: </strong>HTML,CSS,JS</li>
+                <li><strong>Front End Framework: </strong>ReactJS</li>
+                <li><strong>Server Framework: </strong>Node.js,Express.js</li>
+                <li><strong>DBMS: </strong>MySQL</li>
+             </ul>
+         </section>
+         <section>
+            <!-- Hobbies and Intrests -->
+             <h2>Hobbies and Intrests</h2>
+             <ol>
+                <li>Coding Challenges</li>
+                <li>UI/UX Design</li>
+                <li>Watching Tech Youtube</li>
+                <li>Singing</li>
+             </ol>
+         </section>
+         <section>
+            <form action="#">
+                <h2>Contact Me</h2>
+                <div class="form-group">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email"><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="date"><strong>When to call back:</strong></label>
+                    <input type="datetime-local" name="date" id="date"><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact"><strong>Contact number:</strong></label>
+                    <input type="tel" name="contact" id="contact"><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="descrition"><strong>Description</strong></label>
+                    <textarea name="descrition" id="descrition" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="linkedin"><strong>LinkedIn Profile URL</strong></label>
+                    <input type="url" name="linkedin" id="linkedin">
+                </div>
+                <div>
+                    <label for="Submit"></label>
+                    <input type="submit" value="Submit">
+                </div>
+                
+            </form>
+         </section>
+    </main>
 </body>
 </html>
