@@ -6,7 +6,8 @@ public class Student {
         age=a;
     }
     public static void main(String[] args){
-        Student obj=new Student("Harshitha",20);
+        Student obj=new Student("Poojitha",19);
         System.out.println(obj.name+" "+obj.age);
     }
+
 }
